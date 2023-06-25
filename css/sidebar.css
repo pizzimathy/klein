@@ -1,0 +1,41 @@
+
+#sidebar-parent > .line {
+    width: 3px;
+    animation: separator 1.5s ease-in-out forwards;
+    margin-left: auto;
+}
+
+@keyframes separator {
+    from { height: 0vh; }
+    to { height: 70vh; }
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    font-family: "Ysabeau Office";
+    font-size: 1.25em;
+    flex-grow: 1;
+
+    animation: nameFade 1.5s ease-in-out;
+    padding-right: 1vw;
+}
+
+#sidebar > .row.item {
+    justify-content: flex-start;
+    margin-bottom: calc(2vh + 1px);
+}
+
+#sidebar > .sidebar-link, .sidebar-link:link, .sidebar-link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar > .sidebar-link:hover {
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+}
+
+#sidebar .indicator {
+    width: 2vw;
+}

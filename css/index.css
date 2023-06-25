@@ -1,0 +1,30 @@
+
+@import "fonts.css";
+@import "flex.css";
+@import "animatable.css";
+@import "header.css";
+@import "sidebar.css";
+@import "content.css";
+
+body {
+    min-width: 45vw;
+    max-width: 50vw;
+    margin: 3vw auto;
+    background-color: white;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+}
+
+#sidebar-parent {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+#content {
+    width: 75%;
+}

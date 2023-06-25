@@ -1,0 +1,32 @@
+
+header {
+    font-size: 1.5em;
+    height: auto;
+}
+
+#nameplate-link h1 {
+    animation: nameFade 1.5s ease-in-out;
+    margin-bottom: 1vh;
+}
+
+header > .line {
+    height: 3px;
+    width: 0%;
+    animation: line 1.5s ease-in-out forwards;
+}
+
+#nameplate-link, #nameplate-link:link, #nameplate-link:hover, #nameplate-link:visited {
+    color:  #21ABCD;
+    font-family: "Limelight";
+    text-decoration: none;
+}
+
+@keyframes nameFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes line {
+    from { width: 0%; }
+    to { width: 100%; }
+}
