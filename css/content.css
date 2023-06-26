@@ -1,4 +1,15 @@
 
 #content {
-    font-family: "EB Garamond";
+    font-family: "Ysabeau Office";
+    font-size: 1.1em;
+
+    padding-left: 2vw;
+    
+    animation: nameFade 1.5s ease-in-out;
+}
+
+#content p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: justify;
 }

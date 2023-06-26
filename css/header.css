@@ -6,11 +6,12 @@ header {
 
 #nameplate-link h1 {
     animation: nameFade 1.5s ease-in-out;
+    margin-top: 0;
     margin-bottom: 1vh;
 }
 
 header > .line {
-    height: 3px;
+    height: 0.5vh;
     width: 0%;
     animation: line 1.5s ease-in-out forwards;
 }

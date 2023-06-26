@@ -7,10 +7,25 @@
 @import "content.css";
 
 body {
+    margin: 0;
+    animation: background 1s ease-in-out forwards;
+}
+
+@keyframes background {
+    from { background-color: white; }
+    to { background-color:#9966CC50; }
+}
+
+#container {
+    min-height: 100vh;
     min-width: 45vw;
     max-width: 50vw;
-    margin: 3vw auto;
+
+    margin: 0 auto;
+    padding: 3vw;
+
     background-color: white;
+    box-shadow: 0 0 1vw white, 0 0 2vw white, 0 0 3vw white, 0 0 4vw white, 0 0 5vw white;
 }
 
 #wrapper {
@@ -20,7 +35,7 @@ body {
 }
 
 #sidebar-parent {
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: row;
 }

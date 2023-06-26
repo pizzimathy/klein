@@ -1,13 +1,13 @@
 
-#sidebar-parent > .line {
-    width: 3px;
+#sidebar-parent .line {
+    width: 0.5vh;
     animation: separator 1.5s ease-in-out forwards;
-    margin-left: auto;
+    margin-left: 1vh;
 }
 
 @keyframes separator {
     from { height: 0vh; }
-    to { height: 70vh; }
+    to { height: 90vh; }
 }
 
 #sidebar {
@@ -38,4 +38,8 @@
 
 #sidebar .indicator {
     width: 2vw;
+}
+
+#sidebar .img img {
+    max-width: 100%
 }
